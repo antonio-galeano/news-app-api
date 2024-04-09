@@ -1,0 +1,51 @@
+.news-app {
+    display: flex;
+    justify-content: center;
+
+}
+
+.news-item {
+    width: 60%;
+    padding: 20px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.news-img {
+    width: 100%;
+}
+
+.centered-text {
+    width: 60%;
+    margin: 0 auto 20px;
+    text-align: center;
+
+}
+
+.no-margin {
+    margin: 0px; /* Adjust this value as needed */
+  }
+
+
+button {
+	background-color: #333;
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.2rem;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 0;
+	max-width: 240px;
+}
+
+button:hover {
+	background-color: #555;
+}
+
+button:active {
+	background-color: #222;
+}
